@@ -1,0 +1,5 @@
+Analisis:
+1. Operator Robert menghasilkan tepi yang lebih tipis dan kurang halus dibandingkan dengan operator Sobel.
+2. Operator Sobel lebih sensitif terhadap perubahan intensitas dan menghasilkan tepi yang lebih tebal dan halus.
+3. Robert lebih cepat dalam komputasi karena kernel yang lebih kecil, tetapi kurang akurat dalam mendeteksi tepi yang kompleks.
+4. Sobel lebih baik dalam mendeteksi tepi pada gambar dengan noise karena kernel yang lebih besar.
