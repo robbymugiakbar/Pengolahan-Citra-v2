@@ -51,10 +51,3 @@ plt.title('Sobel Edge Detection')
 plt.imshow(sobel_edge, cmap='gray')
 
 plt.show()
-
-# Analisis sederhana
-print("Analisis:")
-print("1. Operator Robert menghasilkan tepi yang lebih tipis dan kurang halus dibandingkan dengan operator Sobel.")
-print("2. Operator Sobel lebih sensitif terhadap perubahan intensitas dan menghasilkan tepi yang lebih tebal dan halus.")
-print("3. Robert lebih cepat dalam komputasi karena kernel yang lebih kecil, tetapi kurang akurat dalam mendeteksi tepi yang kompleks.")
-print("4. Sobel lebih baik dalam mendeteksi tepi pada gambar dengan noise karena kernel yang lebih besar.")
